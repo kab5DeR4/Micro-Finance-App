@@ -1,17 +1,60 @@
-# myapp
+# Bhumi Finance 🌾
+### *Digitizing the Informal Economy: A Daily Micro-Loan Management Suite*
 
-A new Flutter project.
+<div align="center">
+  <img src="https://via.placeholder.com/250x500.png?text=Mobile+App+Screenshot" width="250" alt="Bhumi Finance Mobile View">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://via.placeholder.com/600x350.png?text=Desktop+Dashboard+Screenshot" width="500" alt="Bhumi Finance Desktop View">
+</div>
 
-## Getting Started
+<br>
 
-This project is a starting point for a Flutter application.
+**Bhumi Finance** is a purpose-built financial tool designed for local lenders who provide micro-loans to the working class, including daily-wage laborers and small-scale workers. While standard banking apps focus on monthly cycles, Bhumi Finance is engineered for the "Daily Collection" reality of the street-level economy. 
 
-A few resources to get you started if this is your first Flutter project:
+Built as a **true cross-platform solution**, it functions seamlessly as a portable **Mobile App** for field collections and a robust **Desktop Application** for end-of-day ledger management.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack & Architecture
+* **Frontend:** Flutter (Dart) for high-speed, cross-platform UI across mobile and desktop.
+* **Database:** SQLite via `sqflite_common_ffi` for robust local storage on Windows and standard SQLite for mobile environments.
+* **Architecture:** Modular Folder System (Themes, Screens, Database, Logic) for scalability and clean code.
+* **Theme Management:** `ValueNotifier` for real-time Light/Dark mode switching without performance drops.
+
+---
+
+## 🧠 Challenges & Problem Solving
+Building a financial tool as a student required solving real-world engineering problems. Here is how I tackled them:
+
+> ### 1. The Monolith to Modular Transition 🏗️
+> **Problem:** Initially, the codebase was a single, massive file that was impossible to debug or scale.  
+> **Solution:** I refactored the entire app into a modular structure, separating the UI screens from the database logic and theme configurations. This made the project professional and "Evaluation Ready".
+
+> ### 2. The Desktop Database Hurdle 🖥️
+> **Problem:** Standard Flutter SQLite packages are built for mobile, but I needed a reliable solution for Windows/Desktop development alongside the mobile app.  
+> **Solution:** I implemented `sqflite_common_ffi` and custom database factory logic to ensure the app runs flawlessly on PC environments while maintaining mobile compatibility.
+
+> ### 3. Daily vs. Monthly Math Logic 📉
+> **Problem:** Most banking logic uses monthly interest math, which doesn't work for microfinance daily collections.  
+> **Solution:** I developed a custom calculation engine that prioritizes daily collection tracking and ledger visualization specifically tailored for micro-scale operations.
+
+---
+
+## 💻 Installation & Setup
+
+### Prerequisites
+* **Flutter SDK** (Stable Channel)
+* **Dart SDK**
+* For Windows/Linux Desktop deployment: Visual Studio or appropriate C++ build tools
+
+### Setup Instructions
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/Bhumi-Finance.git](https://github.com/YOUR_USERNAME/Bhumi-Finance.git)
+2. **Navigate to the directory and install dependencies:**
+   ```bash
+   cd Bhumi-Finance
+   flutter pub get
+3. Run the Application:
+   ```bash
+   flutter run
