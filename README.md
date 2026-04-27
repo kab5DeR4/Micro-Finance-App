@@ -4,7 +4,7 @@
 <div align="center">
   <img src="https://via.placeholder.com/250x500.png?text=Mobile+App+Screenshot" width="250" alt="Bhumi Finance Mobile View">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://via.placeholder.com/600x350.png?text=Desktop+Dashboard+Screenshot" width="500" alt="Bhumi Finance Desktop View">
+  <img src="https://github.com/user-attachments/assets/3a765424-8759-4366-93b3-360ef06f80ec" width="500" alt="Bhumi Finance Desktop View">
 </div>
 
 <br>
