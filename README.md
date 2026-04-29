@@ -50,7 +50,7 @@ Building a financial tool as a student required solving real-world engineering p
 ### Setup Instructions
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Bhumi-Finance.git](https://github.com/YOUR_USERNAME/Bhumi-Finance.git)
+   https://github.com/kab5DeR4/Micro-Finance-App.git
 2. **Navigate to the directory and install dependencies:**
    ```bash
    cd Bhumi-Finance
