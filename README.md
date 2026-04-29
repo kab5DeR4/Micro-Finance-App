@@ -2,7 +2,7 @@
 ### *Digitizing the Informal Economy: A Daily Micro-Loan Management Suite*
 
 <div align="center">
-  <img src="https://via.placeholder.com/250x500.png?text=Mobile+App+Screenshot" width="250" alt="Bhumi Finance Mobile View">
+  <img src="https://github.com/user-attachments/assets/ed8ef977-0dac-4d08-afd5-5f19aa54f2e3" width="250" alt="Bhumi Finance Mobile View">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/3a765424-8759-4366-93b3-360ef06f80ec" width="500" alt="Bhumi Finance Desktop View">
 </div>
